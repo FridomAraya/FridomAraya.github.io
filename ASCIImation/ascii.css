@@ -1,0 +1,43 @@
+body{
+    background-color: blueviolet; 
+    
+
+}
+
+img{ 
+    background: #CCCCFF;
+    height: 25px;
+    width: 30px;
+  
+}
+
+h1{
+    font-size: 14pt;
+    font-style: sans-serif;
+    font: bold;
+    text-align: center;
+    
+}
+p{
+    color: white;
+    font: bold;
+    border-style: solid;
+    border-width: 250px 30px;
+}
+
+#size{ 
+    font: bold;
+    font-style: sans-serif;
+    text-align: center;
+}
+
+#play{
+    font-size: 14pt;
+    font: bold;
+    font-style: sans-serif;
+}
+fieldset{
+    display: inline;
+    float: left;
+  
+}

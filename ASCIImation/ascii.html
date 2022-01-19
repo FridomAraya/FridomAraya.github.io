@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ascii.css">
+    <title>ASCII art</title>
+    <script src="ascii.js"> </script>
+    <script src="animations.js"></script>
+   
+</head>
+<body>
+    <div>
+        <h1 id="h1">CSE 190 M ASCII Animation Viewer</h1>
+        <img id="img" src="heart-emoji.png" alt="heart image">
+    </div>
+    <p id="p"></p>
+   </div>
+
+  
+       <fieldset width="50px">
+    <legend for="play">Play Controls:</legend>
+       <button  onclick="alertStart();">start</button>
+       <button  onclick="alertStop();">stop</button>
+    </fieldset>
+   
+
+ <fieldset>
+       <legend for="Animation">Animation:</legend>
+    <select id="label" name="label1">   
+        <option value="bike-tiny">bike-tiny</option>
+        <option value="juggler">juggler</option>
+        <option value="exercise large">exercise large</option>                                <option value="dive">dive</option>
+  </select>
+</fieldset>
+
+<fieldset>
+    <legend for="size">Size:</legend>
+    <select name="size" id="size">
+        <option value="small">small</option>
+        <option value="medium">medium</option>
+        <option value="large">large</option>
+    </select>
+</fieldset>
+
+
+<fieldset>
+    <legend for="Speed">Speed:</legend>
+    <input id = "check1" type= "checkbox"> Turbo <br></fieldset>
+</body>
+</html>
