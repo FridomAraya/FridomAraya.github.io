@@ -28,13 +28,18 @@
 
   <div>
   <p>Click on the button</p>
-  <button onclick="alertUser()">Click me</button>
+  <button id="pic" onclick="alertUser()">Click me</button>
+  <button id="pic" onclick="alertUsers()">Click me</button>
   </div>
-  
 
   <script>
-    function alertUser(){
-      alert("You clicked me!");
+    function alertUsers(){
+   alert("You clicked me!");
+ // document.getElementsById("pic").src="heart.png";  
+  }
+  function alertUser(){
+     alert("You clicked!");
+    // document.getElementsById("pic").src="heart.png";  
     }
   </script>
 
