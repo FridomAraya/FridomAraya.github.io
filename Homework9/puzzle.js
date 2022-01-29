@@ -31,7 +31,7 @@ $(document).ready(function () {
         count++;
     });
 
-    var images= ["url('image.jpg')", "url('images.jpg')", "url('image3.jpg')"];
+    var images= ["url('image.jpg')", "url('image2.jpg')", "url('image3.jpg')"];
     var index=0;
     $("#changeImage").click(function(){
       if(index>2){index=0;};
