@@ -23,8 +23,8 @@ app.get('/calculator.js', function(req, res){
     result=n1/n2;
   }
   
-   //res.send("The Answer is: "+result
-   //+"<br><br> <a href= 'http://127.0.0.1:5500/Lab8/calculator.html'>Another calculation</a>");
+  res.send("The Answer is: "+result
+  +"<br><br> <a href= 'http://127.0.0.1:5500/Lab7/calculator.html'>Another calculation</a>");
 
   res.render('resultPage', {answer: result}); // It knows resultPage.ejs is in view
 
