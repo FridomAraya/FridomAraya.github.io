@@ -26,7 +26,7 @@ app.get('/calculator.js', function(req, res){
   res.send("The Answer is: "+result
   +"<br><br> <a href= 'http://127.0.0.1:5500/Lab7/calculator.html'>Another calculation</a>");
 
-  res.render('resultPage', {answer: result}); // It knows resultPage.ejs is in view
+  res.render('resultPage', {answer: result}); 
 
 
 })
