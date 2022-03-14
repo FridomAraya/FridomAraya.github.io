@@ -7,7 +7,7 @@ exports.queryWord= function(word, res){
       database: "entries",
       port: 3306,
       user: "root",
-      password: "compiters1992",
+      password: "password",
     
     });
     
